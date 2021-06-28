@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar .navbar-brand{
+    color: #3498DB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .3rem;
+}
+
+.navbar .navbar-brand:hover{
+    color: #3498DB;
+}
+
+ .menu_active{
+   font-weight: bold;
+   color: crimson;
+}

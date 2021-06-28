@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+
+.card{
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 3rem gray;
+    
+}
+
+.card img{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    
+}
+
+.card-body .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_holder{
+    display: inline-block;
+}
